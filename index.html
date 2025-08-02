@@ -1,154 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>José Zuniga - Resume</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>José Zúñiga - Resume</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f8fafc;
+      margin: 40px;
+      background-color: #f8f9fa;
+      color: #212529;
     }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 2rem;
-    }
-    .header {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .header h1 {
-      font-size: 2.5rem;
-      color: #1e3a8a;
-    }
-    .header p {
-      font-size: 1rem;
-      color: #4b5563;
+    h1, h2 {
+      color: #0056b3;
     }
     .section {
-      margin-bottom: 2rem;
+      margin-bottom: 24px;
     }
-    .section h2 {
-      font-size: 1.5rem;
-      color: #1e3a8a;
-      margin-bottom: 0.5rem;
+    .company {
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-top: 12px;
     }
-    .list {
-      list-style-type: disc;
-      margin-left: 2rem;
+    ul {
+      margin-top: 6px;
     }
-    .contact-info, .work-experience, .education, .languages {
-      margin-bottom: 2rem;
-    }
-    .work-item {
-      margin-bottom: 1rem;
-    }
-    .work-item h3 {
-      font-size: 1.2rem;
-      color: #1e3a8a;
-    }
-    .work-item ul {
-      margin-left: 1.5rem;
-    }
-    .contact-info ul, .languages ul, .education ul {
-      margin-left: 0;
+    li {
+      margin-bottom: 6px;
     }
   </style>
 </head>
 <body>
+  <h1>José Zúñiga</h1>
+  <p><strong>Location:</strong> Heredia, Costa Rica · <strong>Email:</strong> josezuniga@example.com · <strong>Languages:</strong> English (C2), Spanish (Native)</p>
 
-<div class="container">
-
-  <!-- Header Section -->
-  <div class="header">
-    <h1>José Zuniga</h1>
-    <p>Senior Project Manager | Scrum Master</p>
-    <p>Email: josean.111@gmail.com | Phone: +506 8897 5841</p>
-    <p>Location: Heredia, Costa Rica</p>
-    <p>LinkedIn: linkedin.com/in/jose-azuniga</p>
-    <p>Portfolio: josean111.github.io/jose-zuniga-portfolio-/</p>
+  <div class="section">
+    <h2>Summary</h2>
+    <p>Senior Project Manager and Scrum Master with 16+ years of experience leading Agile transformations, engineering projects, and cloud migrations across global teams. Proven track record in driving efficiency, delivering technical programs, and scaling DevOps capabilities in highly regulated environments.</p>
   </div>
 
-  <!-- Education Section -->
-  <div class="section education">
+  <div class="section">
+    <h2>Experience</h2>
+
+    <div class="company">iTree Training | 2021 – 2023</div>
+    <p><em>Global consulting and training firm specialized in IT service management, DevOps, and Agile transformation.</em></p>
+    <p><strong>Senior Agile Program Manager</strong></p>
+    <ul>
+      <li>Oversaw large-scale transformation initiatives across LATAM clients, including cloud modernization and scaled Agile adoption (SAFe).</li>
+      <li>Trained over 150 professionals in Agile, Scrum, and Lean principles through tailored workshops and coaching sessions.</li>
+      <li>Improved Agile maturity assessment scores by 30% in 6 months for multiple enterprise clients.</li>
+    </ul>
+
+    <div class="company">IBM | 2020 – 2021</div>
+    <p><em>One of the world’s largest technology and consulting companies, providing cloud platform and cognitive solutions.</em></p>
+    <p><strong>Site Reliability Engineer</strong></p>
+    <ul>
+      <li>Implemented monitoring and automation practices for hybrid cloud services using Kubernetes and Terraform.</li>
+      <li>Reduced on-call incidents by 40% through proactive observability improvements.</li>
+      <li>Developed self-healing scripts that improved system uptime by 15%.</li>
+    </ul>
+
+    <div class="company">Optiva | 2019 – 2021</div>
+    <p><em>Global provider of mission-critical BSS solutions to telecom operators in 60+ countries.</em></p>
+    <p><strong>Engineering Project Manager & Scrum Master</strong></p>
+    <ul>
+      <li>Led Agile delivery of telecom BSS software for Tier-1 clients in North America and LATAM using Scrum and SAFe frameworks.</li>
+      <li>Delivered cloud-native CI/CD automation pipeline on GCP, reducing release time by 25%.</li>
+      <li>Improved Jira workflows and Agile metrics visibility, boosting team productivity by 20%.</li>
+    </ul>
+
+    <div class="company">Equifax | 2012 – 2019</div>
+    <p><em>Equifax is a global data, analytics, and technology company, providing businesses and individuals with trusted insights to make informed decisions.</em></p>
+    <p><strong>Engineering Project Manager | 2015 – 2019</strong></p>
+    <ul>
+      <li>Managed cloud migration and CI/CD pipeline projects, enhancing the software delivery lifecycle.</li>
+      <li>Increased team productivity by 20% with Scrum adoption.</li>
+      <li>Standardized CI/CD pipeline across departments, improving cross-functional workflows.</li>
+      <li>Automated build/deploy processes, reducing deployment cycle time by 50%.</li>
+    </ul>
+    <p><strong>Technical Project Manager | 2012 – 2015</strong></p>
+    <ul>
+      <li>Led infrastructure upgrades, internal tools, and API integrations.</li>
+      <li>Managed $600K IT infrastructure upgrade, improving performance by 40% and reducing downtime by 2 hours/month.</li>
+    </ul>
+  </div>
+
+  <div class="section">
     <h2>Education</h2>
-    <ul class="list">
-      <li>Master's Degree in Project Management | Master Cum Laude | Spain</li>
-      <li>Master's Degree in Business Administration | Master Cum Laude | Spain</li>
-      <li>Bachelor's Degree in Computer Science | ULACIT, Costa Rica</li>
+    <ul>
+      <li>Master's in Project Management and Business Administration</li>
+      <li>Bachelor's in Computer Science</li>
     </ul>
   </div>
 
-  <!-- Certifications Section -->
-  <div class="section certifications">
+  <div class="section">
     <h2>Certifications</h2>
-    <ul class="list">
-      <li>Certified Scrum Master (CSM) (ID: 561348)</li>
-      <li>Agile Certified Practitioner (PMI-ACP)</li>
-      <li>SAFe® 4 Certified Practitioner (Scaled Agile, Inc.)</li>
-      <li>Amazon Web Services Cloud Practitioner</li>
+    <ul>
+      <li>Certified Scrum Master (CSM)</li>
+      <li>PMI-ACP (Agile Certified Practitioner)</li>
+      <li>SAFe Certified Practitioner</li>
+      <li>AWS Cloud Practitioner</li>
     </ul>
   </div>
 
-  <!-- Work Experience Section -->
-  <div class="section work-experience">
-    <h2>Work Experience</h2>
-    
-    <!-- Job 1 -->
-    <div class="work-item">
-      <h3>iTree Training | Senior Program Agile Manager | 2022 – 2025</h3>
-      <p>Led several Agile projects, closely working with cross-functional teams to meet business goals, while ensuring alignment with company priorities.</p>
-      <ul>
-        <li>Increased productivity by 35% and reduced time-to-market by 40%.</li>
-        <li>Improved sprint planning and backlog refinement, reducing delivery delays by 25%.</li>
-        <li>Established strong relationships with key stakeholders, increasing satisfaction by 20%.</li>
-      </ul>
-    </div>
-
-    <!-- Job 2 -->
-    <div class="work-item">
-      <h3>IBM | Site Reliability Engineer | 2021 – 2024</h3>
-      <p>Focused on maintaining system uptime, reliability, and continuous improvement through proactive strategies.</p>
-      <ul>
-        <li>Reduced unplanned outages by 6% through predictive maintenance.</li>
-        <li>Enhanced disaster recovery processes, improving recovery success rates by 12%.</li>
-      </ul>
-    </div>
-
-    <!-- Job 3 -->
-    <div class="work-item">
-      <h3>Optiva | Scrum Master / Engineering Project Manager | 2019 – 2021</h3>
-      <p>Led teams transitioning to Agile methodologies while managing complex engineering projects.</p>
-      <ul>
-        <li>Coordinated cross-functional teams, ensuring alignment across time zones.</li>
-        <li>Delivered 95% of projects on time, cutting delays by 20%.</li>
-      </ul>
-    </div>
-
-    <!-- Job 4 -->
-    <div class="work-item">
-      <h3>Equifax | Engineering Project Manager | 2015 – 2019</h3>
-      <p>Led cross-functional teams in developing and deploying data analytics solutions to optimize business operations.</p>
-      <ul>
-        <li>Reduced project delivery timelines by 15% through streamlined cycles.</li>
-        <li>Led 5+ large-scale projects, generating a combined revenue increase of $15M.</li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Languages Section -->
-  <div class="section languages">
-    <h2>Languages</h2>
-    <ul class="list">
-      <li>Spanish: Native</li>
-      <li>English: C2 - Bilingual</li>
+  <div class="section">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Cloud: AWS, Google Cloud, IBM Cloud, Azure</li>
+      <li>DevOps: Kubernetes, Terraform, CI/CD, Jenkins</li>
+      <li>Project Tools: Jira, Confluence, Trello</li>
+      <li>Languages: Python, Bash, SQL</li>
     </ul>
   </div>
-
-</div>
-
 </body>
 </html>
