@@ -1,192 +1,264 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>José Zuniga - Resume</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f7fb;
-      color: #333;
-    }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Jose Zuniga Resume</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0; color: #333;
+    background: #fff;
+  }
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  .main-column {
+    padding: 30px 40px;
+  }
+  .side-column {
+    background-color: #254263;
+    color: white;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  h1, h2, h3 {
+    margin: 0;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #254263;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+  }
+  h3 {
+    font-size: 15px;
+    color: #254263;
+    margin-top: 14px;
+    margin-bottom: 6px;
+  }
+  .contact-info {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #444;
+  }
+  .section {
+    margin-bottom: 28px;
+  }
+  p, li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  ul {
+    padding-left: 20px;
+    margin-top: 6px;
+  }
+  li {
+    margin-bottom: 5px;
+  }
+  /* Sidebar section titles */
+  .side-column h2 {
+    border-color: rgba(255,255,255,0.4);
+    color: white;
+  }
+  /* Sidebar lists */
+  .side-column ul {
+    padding-left: 14px;
+  }
+  .side-column li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #d6dbdf;
+  }
+  .achievements li {
+    color: white;
+  }
+  /* Language dots */
+  .lang-level {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  .dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 4px;
+  }
+  .dot.filled {
+    background-color: #1a73e8;
+  }
+  .dot.empty {
+    background-color: #bbb;
+  }
+  /* Responsive */
+  @media (max-width: 700px) {
     .container {
-      max-width: 1000px;
-      margin: auto;
-      background: #fff;
-      padding: 40px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      grid-template-columns: 1fr;
     }
-    h1, h2, h3 {
-      color: #004080;
+    .side-column {
+      display: block;
+      padding: 20px 30px;
     }
-    h1 {
-      font-size: 36px;
-    }
-    h2 {
-      margin-top: 30px;
-      font-size: 24px;
-    }
-    h3 {
-      margin-top: 20px;
-      font-size: 20px;
-    }
-    .section {
-      margin-bottom: 30px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .contact {
-      font-size: 16px;
-      margin-bottom: 20px;
-    }
-    .title-role {
-      font-weight: bold;
-      color: #333;
-    }
-    .subtitle {
-      color: #666;
-    }
-    .company {
-      font-size: 18px;
-      color: #004080;
-    }
-    .role-desc {
-      margin: 8px 0;
-      font-style: italic;
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
   <div class="container">
-    <h1>José Zuniga</h1>
-    <div class="contact">
-      Phone: +506 8897 5841<br>
-      Email: josean.111@gmail.com<br>
-      Heredia, Costa Rica<br>
-      LinkedIn: <a href="https://linkedin.com/in/jose-azuniga">linkedin.com/in/jose-azuniga</a><br>
-      Portfolio: <a href="https://josean111.github.io/jose-zuniga-portfolio-/">josean111.github.io</a>
-    </div><div class="section">
-  <h2>Professional Summary</h2>
-  <p>A results-driven Senior Project Manager and Scrum Master with over 16 years of experience leading cross-functional teams in dynamic environments across diverse industries. Adept at applying Agile methodologies, including Scrum, Kanban, and SAFe, to manage complex projects and programs from concept to successful delivery. Proven ability to drive business value by optimizing workflows, improving team collaboration, risk mitigation, resource planning, and ensuring timely, high-quality project outcomes.</p>
-</div>
+    <div class="main-column">
+      <h1>Jose Zuniga</h1>
+      <div class="contact-info">
+        Phone: +506 8897 5841 | Email: josean.111@gmail.com | Heredia, Costa Rica<br />
+        LinkedIn: <a href="https://linkedin.com/in/jose-azuniga" target="_blank">linkedin.com/in/jose-azuniga</a><br />
+        Portfolio: <a href="https://josean111.github.io/jose-zuniga-portfolio-/" target="_blank">josean111.github.io/jose-zuniga-portfolio-/</a>
+      </div>
 
-<div class="section">
-  <h2>Work Experience</h2>
+      <div class="section summary">
+        <h2>Professional Summary</h2>
+        <p>
+          A results-driven Senior Project Manager and Scrum Master with over 16 years of experience leading cross-functional teams in dynamic environments across diverse industries. Adept at applying Agile methodologies, including Scrum, Kanban, and SAFe, to manage complex projects from concept to delivery. Proven track record delivering high-quality outcomes by optimizing workflows, improving collaboration, and mitigating risks.
+        </p>
+      </div>
 
-  <div>
-    <div class="company">iTree Training | 2022 - 2025</div>
-    <div class="subtitle">Senior Program Agile Manager</div>
-    <div class="role-desc">iTree is a global technology company that provides innovative training programs to enhance organizational efficiency and productivity.<br>Role Description: Led Agile projects, resource planning, and Agile ceremonies. Applied Scrum and SAFe to increase productivity and stakeholder satisfaction.</div>
-    <ul>
-      <li>Increased productivity by 35% and reduced time-to-market by 40% through Agile practices.</li>
-      <li>Reduced delivery delays by 25% and improved on-time delivery by 30%.</li>
-      <li>Improved stakeholder satisfaction by 20% through transparency and reporting.</li>
-    </ul>
-  </div>
+      <div class="section experience">
+        <h2>Work Experience</h2>
 
-  <div>
-    <div class="company">IBM | 2021 - 2024</div>
-    <div class="subtitle">Site Reliability Engineer</div>
-    <div class="role-desc">IBM is a global leader in cloud computing, AI, and business technology.<br>Role Description: Maintained system uptime and reliability. Implemented monitoring, disaster recovery, and predictive maintenance.</div>
-    <ul>
-      <li>Reduced unplanned outages by 6% via ML-based predictive maintenance.</li>
-      <li>Lowered provisioning costs by 7% with capacity planning strategies.</li>
-      <li>Improved recovery success by 12% during peak events.</li>
-    </ul>
-  </div>
+        <div>
+          <h3>iTree Training | Senior Program Agile Manager</h3>
+          <p><em>2022 – 2025</em></p>
+          <ul>
+            <li>Led Agile projects with Scrum and SAFe methodologies.</li>
+            <li>Increased productivity by 35% and reduced time-to-market by 40%.</li>
+            <li>Improved sprint planning and stakeholder satisfaction by 20%.</li>
+          </ul>
+        </div>
 
-  <div>
-    <div class="company">Optiva | 2019 - 2021</div>
-    <div class="subtitle">Scrum Master / Engineering Project Manager</div>
-    <div class="role-desc">Optiva is a global BSS solutions provider for communication service providers.<br>Role Description: Managed Agile transitions, cross-functional collaboration, stakeholder alignment, and project delivery.</div>
-    <ul>
-      <li>Delivered 95% of projects on time with a 20% reduction in delays.</li>
-      <li>Managed budgets exceeding $50M, achieving 10–12% savings.</li>
-      <li>Reduced interdepartmental delays by 30%.</li>
-    </ul>
-  </div>
+        <div>
+          <h3>IBM | Site Reliability Engineer</h3>
+          <p><em>2021 – 2024</em></p>
+          <ul>
+            <li>Monitored systems to ensure uptime and reliability.</li>
+            <li>Reduced unplanned outages by 6% through predictive maintenance.</li>
+            <li>Enhanced disaster recovery success by 12% during peak traffic.</li>
+          </ul>
+        </div>
 
-  <div>
-    <div class="company">Equifax | 2012 - 2019</div>
-    <div class="subtitle">Engineering Project Manager | 2015 - 2019</div>
-    <div class="role-desc">Equifax is a global data, analytics, and technology company, providing businesses and individuals with trusted insights to make informed decisions.<br>Role Description: Managed cloud migration, CI/CD pipelines, and Agile transitions.</div>
-    <ul>
-      <li>Improved SDLC and team productivity by 20% via Scrum practices.</li>
-      <li>Streamlined workflows and standardized CI/CD, boosting efficiency 20%.</li>
-      <li>Cut deployment times by 50% via automation.</li>
-    </ul>
+        <div>
+          <h3>Optiva | Scrum Master / Engineering Project Manager</h3>
+          <p><em>2019 – 2021</em></p>
+          <ul>
+            <li>Delivered 95% of projects on time over a 3-year period.</li>
+            <li>Managed budgets over $50M, achieving 10-12% cost savings.</li>
+            <li>Reduced interdepartmental delays by 30% through collaboration.</li>
+          </ul>
+        </div>
 
-    <div class="subtitle">Technical Project Manager | 2012 - 2015</div>
-    <div class="role-desc">Role Description: Led infrastructure upgrades, API integration, and internal tool management.</div>
-    <ul>
-      <li>Delivered a $600K upgrade project, improving system performance by 40%.</li>
-      <li>Completed cloud migration for 9 tools, cutting costs by 22%.</li>
-      <li>Scaled Agile across 14 teams, accelerating delivery by 30%.</li>
-    </ul>
-  </div>
-</div>
+        <div>
+          <h3>Equifax | Engineering Project Manager / Technical Project Manager</h3>
+          <p><em>2012 – 2019</em></p>
+          <ul>
+            <li>Led $600K IT infrastructure upgrade improving system performance by 40%.</li>
+            <li>Migrated enterprise tools to cloud achieving 22% operational cost savings.</li>
+            <li>Introduced Agile practices across 14 teams improving delivery speed by 30%.</li>
+          </ul>
+        </div>
+      </div>
 
-<div class="section">
-  <h2>Education</h2>
-  <ul>
-    <li>Master's Degree in Project Management, Spain – Master Cum Laude</li>
-    <li>Master's Degree in Business Administration, Spain – Master Cum Laude</li>
-    <li>Bachelor's Degree in Computer Science, ULACIT, Costa Rica</li>
-  </ul>
-</div>
+      <div class="section education">
+        <h2>Education</h2>
+        <ul>
+          <li>Master's Degree in Project Management | Master Cum Laude | Spain</li>
+          <li>Master's Degree in Business Administration | Master Cum Laude | Spain</li>
+          <li>Bachelor's Degree in Computer Science | ULACIT, Costa Rica</li>
+        </ul>
+      </div>
+    </div>
 
-<div class="section">
-  <h2>Certifications</h2>
-  <ul>
-    <li>Certified Scrum Master (CSM) – ID: 561348</li>
-    <li>Agile Certified Practitioner (PMI-ACP)</li>
-    <li>SAFe® 4 Certified Practitioner (Scaled Agile, Inc.)</li>
-    <li>Amazon Web Services Cloud Practitioner</li>
-  </ul>
-</div>
+    <div class="side-column">
+      <div class="section achievements">
+        <h2>Key Achievements</h2>
+        <ul>
+          <li>Boosted team efficiency by over 30% at Optiva</li>
+          <li>Automated deployment cycles, speeding release times by 50%</li>
+          <li>Reduced costs and improved system reliability (IBM, iTree)</li>
+        </ul>
+      </div>
 
-<div class="section">
-  <h2>Courses</h2>
-  <ul>
-    <li>Technical: Monitoring Kubernetes, Terraform on IBM Cloud, etc.</li>
-    <li>Soft Skills: 7 Habits for Effective Managers, SMART Goals</li>
-  </ul>
-</div>
+      <div class="section skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Agile (Scrum, Kanban, SAFe, Lean)</li>
+          <li>Cloud: AWS, Google Cloud, IBM Cloud, Azure</li>
+          <li>DevOps: Kubernetes, Docker, Terraform, Jenkins</li>
+          <li>Programming: Python, JavaScript, Node.js, Shell Script</li>
+          <li>Project Management Tools: Jira, Confluence, Trello, Asana</li>
+        </ul>
+      </div>
 
-<div class="section">
-  <h2>Technical Skills</h2>
-  <ul>
-    <li>Cloud: AWS, Google Cloud, IBM Cloud, Azure</li>
-    <li>Databases: MySQL, PostgreSQL, ElastiCache, Redis</li>
-    <li>DevOps: Kubernetes, Docker, Terraform, Jenkins</li>
-    <li>Programming: Python, JavaScript, Node.js, Shell Script</li>
-    <li>CI/CD: Jenkins, GitLab, CircleCI</li>
-    <li>Monitoring: Prometheus, Grafana, New Relic, Datadog</li>
-    <li>Agile: Scrum, Kanban, SAFe, Lean</li>
-    <li>Tools: Jira, Confluence, Trello, Asana</li>
-  </ul>
-</div>
+      <div class="section certifications">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Certified Scrum Master (CSM)</li>
+          <li>Agile Certified Practitioner (PMI-ACP)</li>
+          <li>SAFe® 4 Certified Practitioner</li>
+          <li>AWS Cloud Practitioner</li>
+        </ul>
+      </div>
 
-<div class="section">
-  <h2>Languages</h2>
-  <ul>
-    <li>Spanish: Native</li>
-    <li>English: C2 - Bilingual</li>
-  </ul>
-</div>
+      <div class="section courses">
+        <h2>Courses</h2>
+        <ul>
+          <li>Monitoring Kubernetes Fundamentals</li>
+          <li>Terraform on IBM Cloud</li>
+          <li>7 Habits for Effective Managers</li>
+        </ul>
+      </div>
 
-<div class="section">
-  <h2>Additional Information</h2>
-  <ul>
-    <li>Leadership: Coaching and mentoring teams to improve performance</li>
-    <li>Collaboration: Expert in cross-functional teamwork and stakeholder engagement</li>
-    <li>Problem Solving: Skilled in incident resolution and proactive improvements</li>
-  </ul>
-</div>
+      <div class="section languages">
+        <h2>Languages</h2>
+        <p>Spanish
+          <span class="lang-level">
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+          </span>
+        </p>
+        <p>English
+          <span class="lang-level">
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+            <span class="dot filled"></span>
+          </span>
+        </p>
+      </div>
 
+      <div class="section additional-info">
+        <h2>Additional Information</h2>
+        <ul>
+          <li>Leadership: Coaching and mentoring teams</li>
+          <li>Collaboration: Cross-functional teamwork</li>
+          <li>Problem Solving: Critical incidents management</li>
+          <li>Work Permit: Valid Canadian work permit</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </body>
 </html>
