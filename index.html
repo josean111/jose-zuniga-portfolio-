@@ -27,7 +27,7 @@
     padding: 30px 25px;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* reduced gap from 30px */
+    gap: 20px;
   }
   h1, h2, h3 {
     margin: 0;
@@ -42,18 +42,18 @@
     font-size: 18px;
     font-weight: 700;
     border-bottom: 1px solid #ddd;
-    padding-bottom: 4px;  /* reduced from 6px */
-    margin-bottom: 8px;   /* reduced from 12px */
+    padding-bottom: 4px;
+    margin-bottom: 8px;
   }
   h3 {
     font-size: 15px;
     color: #254263;
-    margin-top: 10px;     /* reduced from 14px */
-    margin-bottom: 4px;   /* reduced from 6px */
+    margin-top: 10px;
+    margin-bottom: 4px;
   }
   .contact-info {
     font-size: 14px;
-    margin-bottom: 25px;  /* reduced from 30px */
+    margin-bottom: 25px;
     color: #444;
   }
   a {
@@ -64,19 +64,22 @@
     text-decoration: underline;
   }
   .section {
-    margin-bottom: 16px; /* reduced from 28px */
+    margin-bottom: 16px;
   }
-  p, li {
+  .main-column p,
+  .main-column li {
     font-size: 14px;
-    line-height: 1.4;  /* slightly tighter */
-    margin-bottom: 4px; /* reduced from 7px */
+    line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 4px;
   }
   ul {
     padding-left: 20px;
-    margin-top: 4px;  /* reduced from 6px */
+    margin-top: 4px;
   }
   li {
-    margin-bottom: 4px; /* reduced from 7px */
+    margin-bottom: 4px;
   }
   /* Sidebar section titles */
   .side-column h2 {
@@ -88,7 +91,7 @@
     padding-left: 18px;
   }
   .side-column li {
-    margin-bottom: 6px; /* reduced from 8px */
+    margin-bottom: 6px;
     font-size: 14px;
     color: #d6dbdf;
   }
@@ -113,7 +116,6 @@
   .dot.empty {
     background-color: #bbb;
   }
-  /* Responsive */
   @media (max-width: 700px) {
     .container {
       grid-template-columns: 1fr;
@@ -160,139 +162,3 @@
           <ul>
             <li>Monitored and maintained production systems, ensuring optimal reliability and performance in line with Service Level Objectives (SLOs) and Service Level Indicators (SLIs).</li>
             <li>Reduced unplanned outages by 6% through predictive maintenance and utilizing machine learning models and sensor data.</li>
-            <li>Designed capacity planning strategies that led to a 7% reduction in provisioning costs, ensuring efficient infrastructure scalability.</li>
-            <li>Enhanced disaster recovery processes, improving recovery success rates by 12% during peak traffic events.</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Optiva | Scrum Master / Engineering Project Manager</h3>
-          <p><em>2019 – 2021</em></p>
-          <p>Optiva is a leading provider of business support systems (BSS) solutions for communication service providers worldwide.</p>
-          <p><strong>Role Description:</strong> Led teams transitioning to Agile methodologies while managing complex engineering projects. Worked closely with various departments, facilitating communication and aligning project deliverables with customer and stakeholder needs.</p>
-          <ul>
-            <li>Coordinated cross-functional teams across time zones, ensuring alignment and meeting SLAs for project execution.</li>
-            <li>Delivered 95% of projects on time over a 3-year period, cutting project delays by 20% through effective scheduling and risk management.</li>
-            <li>Managed budgets totaling $50M+, achieving cost savings of 10-12% through resource optimization and cost control.</li>
-            <li>Facilitated collaboration across engineering, R&D, and manufacturing teams, reducing interdepartmental delays by 30%.</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Equifax | Engineering Project Manager</h3>
-          <p><em>2015 – 2019</em></p>
-          <p>Equifax is a global data, analytics, and technology company, providing businesses and individuals with trusted insights to make informed decisions.</p>
-          <p><strong>Role Description:</strong> Managed projects focused on cloud migration and CI/CD pipelines while enhancing the company's software delivery lifecycle. Served as Scrum Master during the Agile transition phase.</p>
-          <ul>
-            <li>Increased team productivity by 20% through the adoption of Scrum methodologies, improving SDLC processes and ensuring timely delivery of updates.</li>
-            <li>Improved cross-functional workflow efficiency by 20% by standardizing the CI/CD pipeline.</li>
-            <li>Automated build and deployment processes, speeding up deployment cycles by 50% and eliminating bottlenecks.</li>
-          </ul>
-        </div>
-
-        <div>
-          <h3>Equifax | Technical Project Manager</h3>
-          <p><em>2012 – 2015</em></p>
-          <p><strong>Role Description:</strong> Led infrastructure upgrades, managed internal tools development, and integrated APIs to enhance operational efficiency.</p>
-          <ul>
-            <li>Managed a $600K IT infrastructure upgrade, improving system performance by 40% and reducing downtime by 2 hours per month.</li>
-            <li>Led the cloud migration of 9 enterprise tools, resulting in 22% cost savings in operational expenses and enhanced system scalability.</li>
-            <li>Introduced Agile practices across 14 teams, improving delivery speed by 30% and reducing project cycle times by 50%.</li>
-          </ul>
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="side-column">
-
-     <div class="section summary">
-        <h2>Professional Summary</h2>
-        <p>
-          A results-driven Senior Project Manager and Scrum Master with over 16 years of experience leading cross-functional teams in dynamic environments across diverse industries. Adept at applying Agile methodologies, including Scrum, Kanban, and SAFe, to manage complex projects and programs from concept to successful delivery. Proven ability to drive business value by optimizing workflows, improving team collaboration, risk mitigation, resource planning, and ensuring timely, high-quality project outcomes.
-        </p>
-      </div>
-      
-      <div class="section achievements">
-        <h2>Key Achievements</h2>
-        <ul>
-          <li>Boosted cross-department efficiency (>30%) at Optiva</li>
-          <li>Automated deployments (50% faster cycles, Equifax)</li>
-          <li>Reduced costs and improved system reliability (IBM, iTree)</li>
-        </ul>
-      </div>
-
-      <div class="section skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>Agile (Scrum, Kanban, SAFe, Lean)</li>
-          <li>Cloud Platforms: AWS, Google Cloud, IBM Cloud, Azure</li>
-          <li>DevOps Tools: Kubernetes, Docker, Terraform, Jenkins</li>
-          <li>Programming: Python, JavaScript, Node.js, Shell Script</li>
-          <li>Project Management Tools: Jira, Confluence, Trello, Asana</li>
-        </ul>
-      </div>
-
-      <div class="section certifications">
-        <h2>Certifications</h2>
-        <ul>
-          <li>Certified Scrum Master (CSM) (ID: 561348)</li>
-          <li>Agile Certified Practitioner (PMI-ACP)</li>
-          <li>SAFe® 4 Certified Practitioner (Scaled Agile, Inc.)</li>
-          <li>Amazon Web Services Cloud Practitioner</li>
-        </ul>
-      </div>
-
-      <div class="section courses">
-        <h2>Courses</h2>
-        <ul>
-          <li>Technical: Introduction to Monitoring Kubernetes, Kubernetes Fundamentals, Monitoring a Kubernetes Cluster, Terraform on IBM Cloud</li>
-          <li>Soft Skills: 7 Habits for Effective Managers, SMART Goals for Managers</li>
-        </ul>
-      </div>
-
-      <div class="section languages">
-        <h2>Languages</h2>
-        <p>Spanish
-          <span class="lang-level">
-            <span class="dot filled"></span>
-            <span class="dot filled"></span>
-            <span class="dot filled"></span>
-            <span class="dot filled"></span>
-            <span class="dot filled"></span>
-          </span>
-        </p>
-        <p>English
-          <span class="lang-level">
-            <span class="dot filled"></span>
-            <span class="dot filled"></span>
-            <span class="dot filled"></span>
-            <span class="dot filled"></span>
-            <span class="dot filled"></span>
-          </span>
-        </p>
-      </div>
-
-      <div class="section additional-info">
-        <h2>Additional Information</h2>
-        <ul>
-          <li>Leadership: Coaching and mentoring teams to improve productivity and performance</li>
-          <li>Collaboration: Expertise in cross-functional teamwork and stakeholder management</li>
-          <li>Problem Solving: Adept at handling critical incidents and providing proactive solutions</li>
-        </ul>
-      </div>
-
-      <div class="section education">
-        <h2>Education</h2>
-        <ul>
-          <li>Master's Degree in Project Management &nbsp;|&nbsp; Master Cum Laude &nbsp;|&nbsp; Spain</li>
-          <li>Master's Degree in Business Administration &nbsp;|&nbsp; Master Cum Laude &nbsp;|&nbsp; Spain</li>
-          <li>Bachelor's Degree in Computer Science &nbsp;|&nbsp; ULACIT, Costa Rica</li>
-        </ul>
-      </div>
-      
-    </div>
-  </div>
-</body>
-</html>
